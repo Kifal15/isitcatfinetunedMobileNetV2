@@ -44,4 +44,4 @@ if uploaded_files:
     
     for img, label in zip(images, predictions):
         st.image(img, caption=f"Prediction: {label}", use_column_width=True)
-        st.title(f"It is a CUTE LIL {label}")
+        st.title(f"It is a {label}")
