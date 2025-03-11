@@ -1,0 +1,4 @@
+tensorflow
+streamlit
+numpy
+pillow  # If you're working with images
